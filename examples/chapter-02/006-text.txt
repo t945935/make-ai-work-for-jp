@@ -1,0 +1,1 @@
+Hermes Agent v0.21.1 (2026.9.7) · upstream 110736c0

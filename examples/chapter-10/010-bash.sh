@@ -1,0 +1,1 @@
+sha256sum registrations.csv rules.md verify.py clean_registrations.py

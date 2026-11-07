@@ -1,0 +1,4 @@
+# 關鍵節錄，不是完整可執行程式
+require(reader.fieldnames == fields, filename + ": 表頭不符")
+require(actual == expected, filename + ": 分流、順序或欄位內容不符")
+require(text(root / "summary.md") == summary, "summary.md 內容不符")

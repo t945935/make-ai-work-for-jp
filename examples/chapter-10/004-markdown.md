@@ -1,0 +1,9 @@
+# 報名清理摘要
+- 來源：registrations.csv
+- 規則版本：registrations-v1
+- 輸入列數：8
+- clean：3
+- duplicates：1
+- exceptions：4
+- 未處理例外：R4、R5、R6、R8；待人工確認，未自動修正
+- 原檔：未覆寫；固定全文比對通過

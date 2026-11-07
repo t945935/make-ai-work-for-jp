@@ -1,0 +1,3 @@
+assert source_rows == 固定來源快照
+assert rows == 當期人工批准答案
+// 結構通過後仍須人工審核語義。

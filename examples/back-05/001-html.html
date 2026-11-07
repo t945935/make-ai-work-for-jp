@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8">
+<title>微光讀書會登記練習</title>
+<style>
+body { max-width: 42rem; margin: 3rem auto; padding: 1rem;
+       font: 1.1rem/1.7 sans-serif; }
+input, button { font: inherit; padding: .4rem; }
+</style>
+<h1>微光讀書會登記練習</h1>
+<p>資料只保存在目前瀏覽器，不是真實報名。</p>
+<form id="signup">
+  <label for="name">姓名</label>
+  <input id="name" name="name" autocomplete="off" required>
+  <button type="submit">儲存報名</button>
+</form>
+<p id="status" role="status"></p>
+<h2>已登記名單</h2>
+<ul id="people"></ul>
+<script>
+const key = "happy-book-lab14-signups";
+let names = JSON.parse(localStorage.getItem(key) || "[]");
+const status = document.querySelector("#status");
+function render() {
+  const list = document.querySelector("#people");
+  list.replaceChildren();
+  for (const name of names) {
+    const item = document.createElement("li");
+    item.textContent = name;
+    list.appendChild(item);
+  }
+}
+document.querySelector("#signup").addEventListener("submit", event => {
+  event.preventDefault();
+  const name = document.querySelector("#name").value.trim();
+  if (!name) {
+    status.textContent = "請輸入非空白姓名";
+    return;
+  }
+  if (names.includes(name)) {
+    status.textContent = "此姓名已登記";
+    return;
+  }
+  const next = [...names, name];
+  try {
+    localStorage.setItem(key, JSON.stringify(next));
+  } catch (error) {
+    status.textContent = "儲存失敗，請檢查瀏覽器儲存權限";
+    return;
+  }
+  names = next;
+  render();
+  status.textContent = "已儲存";
+});
+render();
+</script>
+</html>

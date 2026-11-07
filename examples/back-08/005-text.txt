@@ -1,0 +1,3 @@
+hermes profile create book-lab17 --no-alias
+hermes profile show book-lab17
+hermes -p book-lab17 config path

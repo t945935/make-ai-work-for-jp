@@ -1,0 +1,3 @@
+我已核對 v2 與所列交接差異，僅批准上述 handoff.md 更新。
+不要重寫 sources.md、actions-v1.md 或 actions-v2.md。
+更新後讀回 handoff.md，指出實際變更與仍待確認事項。

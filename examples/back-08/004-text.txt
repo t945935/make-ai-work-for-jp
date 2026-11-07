@@ -1,0 +1,3 @@
+hermes -p book-lab16 cron run JOB_ID
+hermes -p book-lab16 cron tick
+hermes -p book-lab16 cron runs JOB_ID

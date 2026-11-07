@@ -1,0 +1,5 @@
+hermes -p book-lab17 config set mcp_servers.book_lab17.resources false
+hermes -p book-lab17 config set mcp_servers.book_lab17.prompts false
+hermes -p book-lab17 config set mcp_servers.book_lab17.sampling.enabled false
+hermes -p book-lab17 config get mcp_servers.book_lab17
+hermes -p book-lab17 mcp test book_lab17

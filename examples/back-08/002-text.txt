@@ -1,0 +1,6 @@
+hermes -p book-lab16 cron add '30m' \
+  '讀取目前工作目錄的 tasks.md。只列進行中與未開始的項目，保留 ID、負責人與狀態；沒有日期就不補日期。只讀取素材，最終回答直接輸出繁體中文 Markdown 待辦表。不修改檔案，不寄信，不呼叫其他外部服務。' \
+  --name 'book-lab16-local' \
+  --workdir "$HOME/hermes-lab-16" \
+  --deliver local --repeat 1 --paused
+hermes -p book-lab16 cron list

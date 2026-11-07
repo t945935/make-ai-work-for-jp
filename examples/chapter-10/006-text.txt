@@ -1,0 +1,2 @@
+我已核對此八列預覽，確認符合既定規則。
+批准依下述要求建立並執行 clean_registrations.py；來源、rules.md 與驗收器不改。

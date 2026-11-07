@@ -1,0 +1,3 @@
+hermes -p book-lab16 cron run --help
+hermes -p book-lab16 cron tick --help
+hermes -p book-lab16 cron runs --help

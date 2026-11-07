@@ -1,0 +1,15 @@
+規則版本：registrations-v1；以下規則連同後附固定輸出格式共同生效。
+一、原檔唯讀；保留 row_id 與每列原始欄位。
+二、name 與 email 只移除前後空白。
+三、本次虛構案例經規格同意，email 全部轉小寫作比較鍵；
+    不宣稱這適用所有真實郵件系統。
+四、email 必填，本練習只檢查非空白，不驗證真實可投遞性。
+五、seats 必須是 ASCII 十進位整數字串，轉換後介於 1 至 3。
+六、先逐列檢查有效性，無效列直接進 exceptions，不參與分組。
+七、對所有有效列按標準化 email 分組；若組內 name 或 seats 不同，
+    整組進 exceptions，理由為「同信箱資料衝突」，不挑最新或先來者。
+八、只有沒有衝突的有效組才去重：name、email、seats 全相同，
+    保留來源中先出現者，其餘進 duplicates。衝突優先於完全重複分流。
+九、每個原始 row_id 只進入 clean、duplicates、exceptions 其中一組。
+十、產出 clean.csv、duplicates.csv、exceptions.csv 與 summary.md；
+    每筆排除紀錄要有理由，重複列另有 retained_row_id。

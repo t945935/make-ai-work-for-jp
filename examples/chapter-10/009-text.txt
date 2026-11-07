@@ -1,0 +1,4 @@
+# 關鍵節錄：故意造錯的驗收器應失敗，測試本身才成功
+expected_success = mutate is None
+if (result.returncode == 0) != expected_success:
+    raise RuntimeError(label + "\n" + result.stdout + result.stderr)

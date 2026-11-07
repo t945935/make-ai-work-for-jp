@@ -1,0 +1,8 @@
+hermes -p book-lab17 mcp list
+hermes -p book-lab17 mcp add book_lab17_copy --command "$HOME/hermes-lab-17/.venv/bin/python" --args "$HOME/hermes-lab-17-copy/server.py"
+hermes -p book-lab17 mcp list
+hermes -p book-lab17 config set mcp_servers.book_lab17_copy.resources false
+hermes -p book-lab17 config set mcp_servers.book_lab17_copy.prompts false
+hermes -p book-lab17 config set mcp_servers.book_lab17_copy.sampling.enabled false
+hermes -p book-lab17 config get mcp_servers.book_lab17_copy
+hermes -p book-lab17 mcp test book_lab17_copy

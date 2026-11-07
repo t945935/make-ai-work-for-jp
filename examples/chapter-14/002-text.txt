@@ -1,0 +1,2 @@
+localStorage.setItem(key, JSON.stringify(next));
+// 儲存成功後才更新名單與畫面。

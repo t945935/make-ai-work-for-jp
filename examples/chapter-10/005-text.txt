@@ -1,0 +1,4 @@
+讀 registrations.csv 與 rules.md。
+先建立 preview.md，逐列列出預計分類與理由，不寫正式三份 CSV。
+計算交給 Python 的 csv 模組與集合處理，不靠聊天文字心算。
+指出規則是否有歧義；若沒有，等待我確認後才建立整理腳本。

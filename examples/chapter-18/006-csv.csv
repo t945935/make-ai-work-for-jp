@@ -1,0 +1,4 @@
+id,task,owner,due,status,sources
+G02,確認印量,小文,2026-10-09,doing,tasks.csv:G02;notes.md:N01
+G03,整理報名表,待確認,2026-10-10,todo,tasks.csv:G03;notes.md:N02
+G04,檢查下載連結,小安,待確認,todo,tasks.csv:G04;notes.md:N03

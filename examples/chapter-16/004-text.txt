@@ -1,0 +1,2 @@
+hermes -p book-lab16 cron status
+hermes -p book-lab16 cron list
