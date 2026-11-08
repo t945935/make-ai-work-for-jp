@@ -1,0 +1,3 @@
+v2と記載された引き継ぎ内容との差異を確認した。上記のhandoff.md更新のみを承認する。
+sources.md、actions-v1.md、actions-v2.mdを書き直してはならない。
+更新後にhandoff.mdを読み返し、実際の変更点と、なお確認が必要な事項を示す。

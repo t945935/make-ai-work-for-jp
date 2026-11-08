@@ -1,0 +1,4 @@
+# 重要部分の抜粋。完全に実行可能なプログラムではない
+require(reader.fieldnames == fields, filename + ": 表頭不符")
+require(actual == expected, filename + ": 分流、順序或欄位內容不符")
+require(text(root / "summary.md") == summary, "summary.md 內容不符")

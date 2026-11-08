@@ -1,0 +1,9 @@
+row_id,name,email,seats
+R1,林青, LIN@example.com ,2
+R2,林青,lin@example.com,2
+R3,周舟,zhou@example.com,1
+R4,阿晴,,1
+R5,杜明,du@example.com,兩位
+R6,許禾,xu@example.com,0
+R7,陳小溪,chen@example.com,3
+R8,林青,lin@example.com,4

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<title>微光読書会 登録練習</title>
+<style>
+body { max-width: 42rem; margin: 3rem auto; padding: 1rem;
+       font: 1.1rem/1.7 sans-serif; }
+input, button { font: inherit; padding: .4rem; }
+</style>
+<h1>微光読書会 登録練習</h1>
+<p>データは現在のブラウザーにのみ保存されます。実際の申し込みではありません。</p>
+<form id="signup">
+  <label for="name">氏名</label>
+  <input id="name" name="name" autocomplete="off" required>
+  <button type="submit">申し込む</button>
+</form>
+<p id="status" role="status"></p>
+<h2>登録済み一覧</h2>
+<ul id="people"></ul>
+<script>
+const key = "happy-book-lab14-signups";
+let names = JSON.parse(localStorage.getItem(key) || "[]");
+const status = document.querySelector("#status");
+function render() {
+  const list = document.querySelector("#people");
+  list.replaceChildren();
+  for (const name of names) {
+    const item = document.createElement("li");
+    item.textContent = name;
+    list.appendChild(item);
+  }
+}
+document.querySelector("#signup").addEventListener("submit", event => {
+  event.preventDefault();
+  const name = document.querySelector("#name").value.trim();
+  if (!name) {
+    status.textContent = "空白以外の氏名を入力してください";
+    return;
+  }
+  if (names.includes(name)) {
+    status.textContent = "この氏名はすでに登録されています";
+    return;
+  }
+  const next = [...names, name];
+  try {
+    localStorage.setItem(key, JSON.stringify(next));
+  } catch (error) {
+    status.textContent = "保存に失敗しました。ブラウザーの保存権限を確認してください";
+    return;
+  }
+  names = next;
+  render();
+  status.textContent = "保存しました";
+});
+render();
+</script>
+</html>

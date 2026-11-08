@@ -1,12 +1,12 @@
-# 書籍例のダウンロード
+# 書籍サンプルのダウンロード
 
-Happy eBook の書籍に掲載されている例のうち、権利者の代理人から本制作で読者向け公開ダウンロードを明示的に許可されたものを収録しています。
+日本語版と原書中国語版を分けて収録しています。両パッケージとも、明示的に許可された書籍内の例だけを含みます。
 
-- **例のダウンロード：** [happy-ebook-book-examples-ja.zip](downloads/happy-ebook-book-examples-ja.zip)
-- **章別一覧・出典／権利情報：** [例一覧と manifest](examples/README.md) / [権利・用途](RIGHTS.md)
-- **収録：** 117 例。中国語原書内のコード／資料例を原文のまま収録。
-- **除外：** workbook 配套 ZIP の内容に直接依存する付録の3例。必要な ZIP は確認できず、追加の再配布ライセンスも確認されていません。
+- **日本語版 ZIP：** [happy-ebook-book-examples-ja.zip](downloads/happy-ebook-book-examples-ja.zip)（117例）
+- **原書中国語版 ZIP：** [happy-ebook-book-examples-zh-source.zip](downloads/happy-ebook-book-examples-zh-source.zip)（117例）
+- **日本語版の章別一覧・出典／SHA-256：** [日本語版 index](examples-ja/README.md) / [manifest](examples-ja/manifest.json)
+- **原書中国語版の章別一覧・出典／SHA-256：** [原書版 index](examples/README.md) / [manifest](examples/manifest.json)
 
-これは書籍全体や第三者ソフトウェアの配布許可ではありません。第三者プログラム、バイナリ、画像、フォント、workbook／書籍 ZIP、review-v4、英語版 reader の内容は含みません。内容は日本語訳ではなく、現行版での動作も保証しません。詳細と全例の出典は [manifest](examples/manifest.json) をご確認ください。
+日本語版では読者向けの自然言語を翻訳しています。コード、コマンド、識別子、パス、URL、固定値、期待出力など、照合に必要な内容は保持しています。翻訳はAI支援で、真人母語校閲済みとは表示していません。サンプルは実行していません。
 
-本サイトは静的な読者向け資料です。日本語書籍本文の翻訳・完成版 EPUB は提供していません。
+workbook／教材ZIP、書籍本文、第三者プログラム、バイナリ、画像、フォント、review-v4、英語版readerの内容は含みません。back-02の教材依存3例は追加ライセンス未確認のため除外しました。詳細は [権利・用途](RIGHTS.md) を確認してください。

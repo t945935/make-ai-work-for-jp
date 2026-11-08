@@ -1,0 +1,2 @@
+hermes -p book-lab17 config set mcp_servers.book_lab17.enabled false
+hermes -p book-lab17 mcp list

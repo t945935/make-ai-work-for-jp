@@ -1,0 +1,5 @@
+hermes -p book-lab17 mcp add book_lab17 \
+  --command "$HOME/hermes-lab-17/.venv/bin/python" \
+  --args "$HOME/hermes-lab-17/server.py"
+hermes -p book-lab17 mcp list
+hermes -p book-lab17 mcp test book_lab17

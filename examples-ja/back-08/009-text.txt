@@ -1,0 +1,1 @@
+hermes -p book-lab17 mcp configure book_lab17

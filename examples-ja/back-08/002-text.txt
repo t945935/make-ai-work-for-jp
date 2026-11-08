@@ -1,0 +1,6 @@
+hermes -p book-lab16 cron add '30m' \
+  '現在の作業ディレクトリにある tasks.md を読み取ってください。進行中と未着手の項目のみを列挙し、ID、担当者、状態を保持してください。日付がなければ補わないでください。資料は読み取りのみとし、最終回答は日本語MarkdownのToDo表を直接出力してください。ファイルを変更せず、メール送信や他の外部サービスの呼び出しも行わないでください。' \
+  --name 'book-lab16-local' \
+  --workdir "$HOME/hermes-lab-16" \
+  --deliver local --repeat 1 --paused
+hermes -p book-lab16 cron list

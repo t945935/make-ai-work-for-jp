@@ -1,5 +1,5 @@
 {
-  "title": "Happy eBook 書籍範例集（日本語読者向け）",
+  "title": "原書中国語版の書籍サンプル（日本語読者向け索引）",
   "source": {
     "file": "Chinese original EPUB, held outside this public repository",
     "sha256": "d2270663d1b06fa458be3e9a5a808aad459dd3fa60d19f9514b26aec0fc65e3d",
@@ -35,7 +35,7 @@
       "chapter": 4,
       "source_file": "EPUB/chapter-04.xhtml",
       "source_title": "第 4 章｜任務規格：目標、輸入、限制與驗收",
-      "display_title_ja": "タスク仕様：目標・入力・制約・検収",
+      "display_title_ja": "タスク仕様：目標・入力・制約・受け入れ条件",
       "included_examples": 2
     },
     {

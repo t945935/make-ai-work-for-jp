@@ -1,0 +1,4 @@
+# 重要部分の抜粋：意図的に誤らせた検証器は失敗する。テスト自体は成功。
+expected_success = mutate is None
+if (result.returncode == 0) != expected_success:
+    raise RuntimeError(label + "\n" + result.stdout + result.stderr)

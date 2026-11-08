@@ -1,0 +1,2 @@
+localStorage.setItem(key, JSON.stringify(next));
+// 保存が成功してから名簿と画面を更新する。

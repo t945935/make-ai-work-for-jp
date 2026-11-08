@@ -1,0 +1,9 @@
+# 登録データの整理サマリー
+- 出典：registrations.csv
+- ルールバージョン：registrations-v1
+- 入力行数：8
+- clean：3
+- duplicates：1
+- exceptions：4
+- 未処理の例外：R4、R5、R6、R8。人による確認待ち。自動修正なし。
+- 元ファイル：上書きなし。固定全文比較に合格。

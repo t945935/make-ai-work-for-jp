@@ -1,0 +1,161 @@
+# 日本語版サンプルと出典一覧
+
+原書の `<pre>` ブロック 120 件を照合し、日本語版 117 件を収録、3 件を除外しました。
+原書中国語版の例は別パッケージです。固定データ、検証に必要な値、コマンド、識別子は照合可能性のため保持しています。
+
+## 章別インデックス
+
+- 第1章 — チャットから成果物へ：AIエージェントで何が変わるのか：0例
+- 第2章 — Hermesを導入し、GPT-6 Astraにつなぐ：9例
+- 第3章 — 最初のタスク：散らかったメモを検証可能な行動リストにする：5例
+- 第4章 — タスク仕様：目標・入力・制約・受け入れ条件：2例
+- 第5章 — ツール・権限・コスト：何を任せられるか：1例
+- 第6章 — メモリ・プロジェクトルール・スキル：保存先を使い分ける：5例
+- 第7章 — 失敗と再開：見せかけの完了、中断、再試行への対処：6例
+- 第8章 — 出典付き調査ブリーフ：検索からエビデンス表へ：6例
+- 第9章 — 文書を行動に変える：担当者・期限・未確認事項：5例
+- 第10章 — 一括データ整理：クリーニング・重複排除・例外一覧：10例
+- 第11章 — コンテンツの納品：素材をレビュー可能な公開パッケージにする：7例
+- 第12章 — 未知のプロジェクトを引き継ぐ：理解してから変更する：10例
+- 第13章 — 要件から機能へ：テストで完了を定義する：8例
+- 第14章 — ブラウザー検証：操作成功とタスク成功は同じではない：3例
+- 第15章 — 複数エージェント協業：分担・統合・独立検収：6例
+- 第16章 — スケジュールと通知：ローカル結果とメッセージ配信の違い：5例
+- 第17章 — MCPと外部サービス：読み取り専用から接続する：2例
+- 第18章 — 卒業プロジェクト：自分のAIワークステーションを作る：9例
+- 後置資料 — `EPUB/back-01.xhtml`：0例、除外 0例
+- 後置資料 — `EPUB/back-02.xhtml`：0例、除外 3例
+- 後置資料 — `EPUB/back-03.xhtml`：0例、除外 0例
+- 後置資料 — `EPUB/back-04.xhtml`：2例、除外 0例
+- 後置資料 — `EPUB/back-05.xhtml`：1例、除外 0例
+- 後置資料 — `EPUB/back-06.xhtml`：1例、除外 0例
+- 後置資料 — `EPUB/back-07.xhtml`：2例、除外 0例
+- 後置資料 — `EPUB/back-08.xhtml`：12例、除外 0例
+
+## ファイル対応（完全な出典とSHA-256は manifest.json）
+
+- `chapter-02-pre-001` / `EPUB/chapter-02.xhtml` pre[001]：原書 `examples/chapter-02/001-powershell.ps1` → 日本語版 [`examples-ja/chapter-02/001-powershell.ps1`](chapter-02/001-powershell.ps1)
+- `chapter-02-pre-002` / `EPUB/chapter-02.xhtml` pre[002]：原書 `examples/chapter-02/002-powershell.ps1` → 日本語版 [`examples-ja/chapter-02/002-powershell.ps1`](chapter-02/002-powershell.ps1)
+- `chapter-02-pre-003` / `EPUB/chapter-02.xhtml` pre[003]：原書 `examples/chapter-02/003-bash.sh` → 日本語版 [`examples-ja/chapter-02/003-bash.sh`](chapter-02/003-bash.sh)
+- `chapter-02-pre-004` / `EPUB/chapter-02.xhtml` pre[004]：原書 `examples/chapter-02/004-bash.sh` → 日本語版 [`examples-ja/chapter-02/004-bash.sh`](chapter-02/004-bash.sh)
+- `chapter-02-pre-005` / `EPUB/chapter-02.xhtml` pre[005]：原書 `examples/chapter-02/005-bash.sh` → 日本語版 [`examples-ja/chapter-02/005-bash.sh`](chapter-02/005-bash.sh)
+- `chapter-02-pre-006` / `EPUB/chapter-02.xhtml` pre[006]：原書 `examples/chapter-02/006-text.txt` → 日本語版 [`examples-ja/chapter-02/006-text.txt`](chapter-02/006-text.txt)
+- `chapter-02-pre-007` / `EPUB/chapter-02.xhtml` pre[007]：原書 `examples/chapter-02/007-bash.sh` → 日本語版 [`examples-ja/chapter-02/007-bash.sh`](chapter-02/007-bash.sh)
+- `chapter-02-pre-008` / `EPUB/chapter-02.xhtml` pre[008]：原書 `examples/chapter-02/008-bash.sh` → 日本語版 [`examples-ja/chapter-02/008-bash.sh`](chapter-02/008-bash.sh)
+- `chapter-02-pre-009` / `EPUB/chapter-02.xhtml` pre[009]：原書 `examples/chapter-02/009-bash.sh` → 日本語版 [`examples-ja/chapter-02/009-bash.sh`](chapter-02/009-bash.sh)
+- `chapter-03-pre-001` / `EPUB/chapter-03.xhtml` pre[001]：原書 `examples/chapter-03/001-text.txt` → 日本語版 [`examples-ja/chapter-03/001-text.txt`](chapter-03/001-text.txt)
+- `chapter-03-pre-002` / `EPUB/chapter-03.xhtml` pre[002]：原書 `examples/chapter-03/002-bash.sh` → 日本語版 [`examples-ja/chapter-03/002-bash.sh`](chapter-03/002-bash.sh)
+- `chapter-03-pre-003` / `EPUB/chapter-03.xhtml` pre[003]：原書 `examples/chapter-03/003-bash.sh` → 日本語版 [`examples-ja/chapter-03/003-bash.sh`](chapter-03/003-bash.sh)
+- `chapter-03-pre-004` / `EPUB/chapter-03.xhtml` pre[004]：原書 `examples/chapter-03/004-bash.sh` → 日本語版 [`examples-ja/chapter-03/004-bash.sh`](chapter-03/004-bash.sh)
+- `chapter-03-pre-005` / `EPUB/chapter-03.xhtml` pre[005]：原書 `examples/chapter-03/005-bash.sh` → 日本語版 [`examples-ja/chapter-03/005-bash.sh`](chapter-03/005-bash.sh)
+- `chapter-04-pre-001` / `EPUB/chapter-04.xhtml` pre[001]：原書 `examples/chapter-04/001-text.txt` → 日本語版 [`examples-ja/chapter-04/001-text.txt`](chapter-04/001-text.txt)
+- `chapter-04-pre-002` / `EPUB/chapter-04.xhtml` pre[002]：原書 `examples/chapter-04/002-bash.sh` → 日本語版 [`examples-ja/chapter-04/002-bash.sh`](chapter-04/002-bash.sh)
+- `chapter-05-pre-001` / `EPUB/chapter-05.xhtml` pre[001]：原書 `examples/chapter-05/001-bash.sh` → 日本語版 [`examples-ja/chapter-05/001-bash.sh`](chapter-05/001-bash.sh)
+- `chapter-06-pre-001` / `EPUB/chapter-06.xhtml` pre[001]：原書 `examples/chapter-06/001-markdown.md` → 日本語版 [`examples-ja/chapter-06/001-markdown.md`](chapter-06/001-markdown.md)
+- `chapter-06-pre-002` / `EPUB/chapter-06.xhtml` pre[002]：原書 `examples/chapter-06/002-text.txt` → 日本語版 [`examples-ja/chapter-06/002-text.txt`](chapter-06/002-text.txt)
+- `chapter-06-pre-003` / `EPUB/chapter-06.xhtml` pre[003]：原書 `examples/chapter-06/003-bash.sh` → 日本語版 [`examples-ja/chapter-06/003-bash.sh`](chapter-06/003-bash.sh)
+- `chapter-06-pre-004` / `EPUB/chapter-06.xhtml` pre[004]：原書 `examples/chapter-06/004-bash.sh` → 日本語版 [`examples-ja/chapter-06/004-bash.sh`](chapter-06/004-bash.sh)
+- `chapter-06-pre-005` / `EPUB/chapter-06.xhtml` pre[005]：原書 `examples/chapter-06/005-bash.sh` → 日本語版 [`examples-ja/chapter-06/005-bash.sh`](chapter-06/005-bash.sh)
+- `chapter-07-pre-001` / `EPUB/chapter-07.xhtml` pre[001]：原書 `examples/chapter-07/001-bash.sh` → 日本語版 [`examples-ja/chapter-07/001-bash.sh`](chapter-07/001-bash.sh)
+- `chapter-07-pre-002` / `EPUB/chapter-07.xhtml` pre[002]：原書 `examples/chapter-07/002-markdown.md` → 日本語版 [`examples-ja/chapter-07/002-markdown.md`](chapter-07/002-markdown.md)
+- `chapter-07-pre-003` / `EPUB/chapter-07.xhtml` pre[003]：原書 `examples/chapter-07/003-text.txt` → 日本語版 [`examples-ja/chapter-07/003-text.txt`](chapter-07/003-text.txt)
+- `chapter-07-pre-004` / `EPUB/chapter-07.xhtml` pre[004]：原書 `examples/chapter-07/004-bash.sh` → 日本語版 [`examples-ja/chapter-07/004-bash.sh`](chapter-07/004-bash.sh)
+- `chapter-07-pre-005` / `EPUB/chapter-07.xhtml` pre[005]：原書 `examples/chapter-07/005-text.txt` → 日本語版 [`examples-ja/chapter-07/005-text.txt`](chapter-07/005-text.txt)
+- `chapter-07-pre-006` / `EPUB/chapter-07.xhtml` pre[006]：原書 `examples/chapter-07/006-text.txt` → 日本語版 [`examples-ja/chapter-07/006-text.txt`](chapter-07/006-text.txt)
+- `chapter-08-pre-001` / `EPUB/chapter-08.xhtml` pre[001]：原書 `examples/chapter-08/001-markdown.md` → 日本語版 [`examples-ja/chapter-08/001-markdown.md`](chapter-08/001-markdown.md)
+- `chapter-08-pre-002` / `EPUB/chapter-08.xhtml` pre[002]：原書 `examples/chapter-08/002-text.txt` → 日本語版 [`examples-ja/chapter-08/002-text.txt`](chapter-08/002-text.txt)
+- `chapter-08-pre-003` / `EPUB/chapter-08.xhtml` pre[003]：原書 `examples/chapter-08/003-text.txt` → 日本語版 [`examples-ja/chapter-08/003-text.txt`](chapter-08/003-text.txt)
+- `chapter-08-pre-004` / `EPUB/chapter-08.xhtml` pre[004]：原書 `examples/chapter-08/004-text.txt` → 日本語版 [`examples-ja/chapter-08/004-text.txt`](chapter-08/004-text.txt)
+- `chapter-08-pre-005` / `EPUB/chapter-08.xhtml` pre[005]：原書 `examples/chapter-08/005-text.txt` → 日本語版 [`examples-ja/chapter-08/005-text.txt`](chapter-08/005-text.txt)
+- `chapter-08-pre-006` / `EPUB/chapter-08.xhtml` pre[006]：原書 `examples/chapter-08/006-text.txt` → 日本語版 [`examples-ja/chapter-08/006-text.txt`](chapter-08/006-text.txt)
+- `chapter-09-pre-001` / `EPUB/chapter-09.xhtml` pre[001]：原書 `examples/chapter-09/001-markdown.md` → 日本語版 [`examples-ja/chapter-09/001-markdown.md`](chapter-09/001-markdown.md)
+- `chapter-09-pre-002` / `EPUB/chapter-09.xhtml` pre[002]：原書 `examples/chapter-09/002-text.txt` → 日本語版 [`examples-ja/chapter-09/002-text.txt`](chapter-09/002-text.txt)
+- `chapter-09-pre-003` / `EPUB/chapter-09.xhtml` pre[003]：原書 `examples/chapter-09/003-text.txt` → 日本語版 [`examples-ja/chapter-09/003-text.txt`](chapter-09/003-text.txt)
+- `chapter-09-pre-004` / `EPUB/chapter-09.xhtml` pre[004]：原書 `examples/chapter-09/004-text.txt` → 日本語版 [`examples-ja/chapter-09/004-text.txt`](chapter-09/004-text.txt)
+- `chapter-09-pre-005` / `EPUB/chapter-09.xhtml` pre[005]：原書 `examples/chapter-09/005-text.txt` → 日本語版 [`examples-ja/chapter-09/005-text.txt`](chapter-09/005-text.txt)
+- `chapter-10-pre-001` / `EPUB/chapter-10.xhtml` pre[001]：原書 `examples/chapter-10/001-bash.sh` → 日本語版 [`examples-ja/chapter-10/001-bash.sh`](chapter-10/001-bash.sh)
+- `chapter-10-pre-002` / `EPUB/chapter-10.xhtml` pre[002]：原書 `examples/chapter-10/002-csv.csv` → 日本語版 [`examples-ja/chapter-10/002-csv.csv`](chapter-10/002-csv.csv)
+- `chapter-10-pre-003` / `EPUB/chapter-10.xhtml` pre[003]：原書 `examples/chapter-10/003-text.txt` → 日本語版 [`examples-ja/chapter-10/003-text.txt`](chapter-10/003-text.txt)
+- `chapter-10-pre-004` / `EPUB/chapter-10.xhtml` pre[004]：原書 `examples/chapter-10/004-markdown.md` → 日本語版 [`examples-ja/chapter-10/004-markdown.md`](chapter-10/004-markdown.md)
+- `chapter-10-pre-005` / `EPUB/chapter-10.xhtml` pre[005]：原書 `examples/chapter-10/005-text.txt` → 日本語版 [`examples-ja/chapter-10/005-text.txt`](chapter-10/005-text.txt)
+- `chapter-10-pre-006` / `EPUB/chapter-10.xhtml` pre[006]：原書 `examples/chapter-10/006-text.txt` → 日本語版 [`examples-ja/chapter-10/006-text.txt`](chapter-10/006-text.txt)
+- `chapter-10-pre-007` / `EPUB/chapter-10.xhtml` pre[007]：原書 `examples/chapter-10/007-text.txt` → 日本語版 [`examples-ja/chapter-10/007-text.txt`](chapter-10/007-text.txt)
+- `chapter-10-pre-008` / `EPUB/chapter-10.xhtml` pre[008]：原書 `examples/chapter-10/008-bash.sh` → 日本語版 [`examples-ja/chapter-10/008-bash.sh`](chapter-10/008-bash.sh)
+- `chapter-10-pre-009` / `EPUB/chapter-10.xhtml` pre[009]：原書 `examples/chapter-10/009-text.txt` → 日本語版 [`examples-ja/chapter-10/009-text.txt`](chapter-10/009-text.txt)
+- `chapter-10-pre-010` / `EPUB/chapter-10.xhtml` pre[010]：原書 `examples/chapter-10/010-bash.sh` → 日本語版 [`examples-ja/chapter-10/010-bash.sh`](chapter-10/010-bash.sh)
+- `chapter-11-pre-001` / `EPUB/chapter-11.xhtml` pre[001]：原書 `examples/chapter-11/001-bash.sh` → 日本語版 [`examples-ja/chapter-11/001-bash.sh`](chapter-11/001-bash.sh)
+- `chapter-11-pre-002` / `EPUB/chapter-11.xhtml` pre[002]：原書 `examples/chapter-11/002-markdown.md` → 日本語版 [`examples-ja/chapter-11/002-markdown.md`](chapter-11/002-markdown.md)
+- `chapter-11-pre-003` / `EPUB/chapter-11.xhtml` pre[003]：原書 `examples/chapter-11/003-markdown.md` → 日本語版 [`examples-ja/chapter-11/003-markdown.md`](chapter-11/003-markdown.md)
+- `chapter-11-pre-004` / `EPUB/chapter-11.xhtml` pre[004]：原書 `examples/chapter-11/004-text.txt` → 日本語版 [`examples-ja/chapter-11/004-text.txt`](chapter-11/004-text.txt)
+- `chapter-11-pre-005` / `EPUB/chapter-11.xhtml` pre[005]：原書 `examples/chapter-11/005-text.txt` → 日本語版 [`examples-ja/chapter-11/005-text.txt`](chapter-11/005-text.txt)
+- `chapter-11-pre-006` / `EPUB/chapter-11.xhtml` pre[006]：原書 `examples/chapter-11/006-text.txt` → 日本語版 [`examples-ja/chapter-11/006-text.txt`](chapter-11/006-text.txt)
+- `chapter-11-pre-007` / `EPUB/chapter-11.xhtml` pre[007]：原書 `examples/chapter-11/007-text.txt` → 日本語版 [`examples-ja/chapter-11/007-text.txt`](chapter-11/007-text.txt)
+- `chapter-12-pre-001` / `EPUB/chapter-12.xhtml` pre[001]：原書 `examples/chapter-12/001-bash.sh` → 日本語版 [`examples-ja/chapter-12/001-bash.sh`](chapter-12/001-bash.sh)
+- `chapter-12-pre-002` / `EPUB/chapter-12.xhtml` pre[002]：原書 `examples/chapter-12/002-markdown.md` → 日本語版 [`examples-ja/chapter-12/002-markdown.md`](chapter-12/002-markdown.md)
+- `chapter-12-pre-003` / `EPUB/chapter-12.xhtml` pre[003]：原書 `examples/chapter-12/003-markdown.md` → 日本語版 [`examples-ja/chapter-12/003-markdown.md`](chapter-12/003-markdown.md)
+- `chapter-12-pre-004` / `EPUB/chapter-12.xhtml` pre[004]：原書 `examples/chapter-12/004-python.py` → 日本語版 [`examples-ja/chapter-12/004-python.py`](chapter-12/004-python.py)
+- `chapter-12-pre-005` / `EPUB/chapter-12.xhtml` pre[005]：原書 `examples/chapter-12/005-python.py` → 日本語版 [`examples-ja/chapter-12/005-python.py`](chapter-12/005-python.py)
+- `chapter-12-pre-006` / `EPUB/chapter-12.xhtml` pre[006]：原書 `examples/chapter-12/006-text.txt` → 日本語版 [`examples-ja/chapter-12/006-text.txt`](chapter-12/006-text.txt)
+- `chapter-12-pre-007` / `EPUB/chapter-12.xhtml` pre[007]：原書 `examples/chapter-12/007-bash.sh` → 日本語版 [`examples-ja/chapter-12/007-bash.sh`](chapter-12/007-bash.sh)
+- `chapter-12-pre-008` / `EPUB/chapter-12.xhtml` pre[008]：原書 `examples/chapter-12/008-bash.sh` → 日本語版 [`examples-ja/chapter-12/008-bash.sh`](chapter-12/008-bash.sh)
+- `chapter-12-pre-009` / `EPUB/chapter-12.xhtml` pre[009]：原書 `examples/chapter-12/009-bash.sh` → 日本語版 [`examples-ja/chapter-12/009-bash.sh`](chapter-12/009-bash.sh)
+- `chapter-12-pre-010` / `EPUB/chapter-12.xhtml` pre[010]：原書 `examples/chapter-12/010-text.txt` → 日本語版 [`examples-ja/chapter-12/010-text.txt`](chapter-12/010-text.txt)
+- `chapter-13-pre-001` / `EPUB/chapter-13.xhtml` pre[001]：原書 `examples/chapter-13/001-bash.sh` → 日本語版 [`examples-ja/chapter-13/001-bash.sh`](chapter-13/001-bash.sh)
+- `chapter-13-pre-002` / `EPUB/chapter-13.xhtml` pre[002]：原書 `examples/chapter-13/002-python.py` → 日本語版 [`examples-ja/chapter-13/002-python.py`](chapter-13/002-python.py)
+- `chapter-13-pre-003` / `EPUB/chapter-13.xhtml` pre[003]：原書 `examples/chapter-13/003-python.py` → 日本語版 [`examples-ja/chapter-13/003-python.py`](chapter-13/003-python.py)
+- `chapter-13-pre-004` / `EPUB/chapter-13.xhtml` pre[004]：原書 `examples/chapter-13/004-bash.sh` → 日本語版 [`examples-ja/chapter-13/004-bash.sh`](chapter-13/004-bash.sh)
+- `chapter-13-pre-005` / `EPUB/chapter-13.xhtml` pre[005]：原書 `examples/chapter-13/005-python.py` → 日本語版 [`examples-ja/chapter-13/005-python.py`](chapter-13/005-python.py)
+- `chapter-13-pre-006` / `EPUB/chapter-13.xhtml` pre[006]：原書 `examples/chapter-13/006-python.py` → 日本語版 [`examples-ja/chapter-13/006-python.py`](chapter-13/006-python.py)
+- `chapter-13-pre-007` / `EPUB/chapter-13.xhtml` pre[007]：原書 `examples/chapter-13/007-python.py` → 日本語版 [`examples-ja/chapter-13/007-python.py`](chapter-13/007-python.py)
+- `chapter-13-pre-008` / `EPUB/chapter-13.xhtml` pre[008]：原書 `examples/chapter-13/008-bash.sh` → 日本語版 [`examples-ja/chapter-13/008-bash.sh`](chapter-13/008-bash.sh)
+- `chapter-14-pre-001` / `EPUB/chapter-14.xhtml` pre[001]：原書 `examples/chapter-14/001-bash.sh` → 日本語版 [`examples-ja/chapter-14/001-bash.sh`](chapter-14/001-bash.sh)
+- `chapter-14-pre-002` / `EPUB/chapter-14.xhtml` pre[002]：原書 `examples/chapter-14/002-text.txt` → 日本語版 [`examples-ja/chapter-14/002-text.txt`](chapter-14/002-text.txt)
+- `chapter-14-pre-003` / `EPUB/chapter-14.xhtml` pre[003]：原書 `examples/chapter-14/003-bash.sh` → 日本語版 [`examples-ja/chapter-14/003-bash.sh`](chapter-14/003-bash.sh)
+- `chapter-15-pre-001` / `EPUB/chapter-15.xhtml` pre[001]：原書 `examples/chapter-15/001-bash.sh` → 日本語版 [`examples-ja/chapter-15/001-bash.sh`](chapter-15/001-bash.sh)
+- `chapter-15-pre-002` / `EPUB/chapter-15.xhtml` pre[002]：原書 `examples/chapter-15/002-csv.csv` → 日本語版 [`examples-ja/chapter-15/002-csv.csv`](chapter-15/002-csv.csv)
+- `chapter-15-pre-003` / `EPUB/chapter-15.xhtml` pre[003]：原書 `examples/chapter-15/003-markdown.md` → 日本語版 [`examples-ja/chapter-15/003-markdown.md`](chapter-15/003-markdown.md)
+- `chapter-15-pre-004` / `EPUB/chapter-15.xhtml` pre[004]：原書 `examples/chapter-15/004-bash.sh` → 日本語版 [`examples-ja/chapter-15/004-bash.sh`](chapter-15/004-bash.sh)
+- `chapter-15-pre-005` / `EPUB/chapter-15.xhtml` pre[005]：原書 `examples/chapter-15/005-python.py` → 日本語版 [`examples-ja/chapter-15/005-python.py`](chapter-15/005-python.py)
+- `chapter-15-pre-006` / `EPUB/chapter-15.xhtml` pre[006]：原書 `examples/chapter-15/006-bash.sh` → 日本語版 [`examples-ja/chapter-15/006-bash.sh`](chapter-15/006-bash.sh)
+- `chapter-16-pre-001` / `EPUB/chapter-16.xhtml` pre[001]：原書 `examples/chapter-16/001-bash.sh` → 日本語版 [`examples-ja/chapter-16/001-bash.sh`](chapter-16/001-bash.sh)
+- `chapter-16-pre-002` / `EPUB/chapter-16.xhtml` pre[002]：原書 `examples/chapter-16/002-markdown.md` → 日本語版 [`examples-ja/chapter-16/002-markdown.md`](chapter-16/002-markdown.md)
+- `chapter-16-pre-003` / `EPUB/chapter-16.xhtml` pre[003]：原書 `examples/chapter-16/003-bash.sh` → 日本語版 [`examples-ja/chapter-16/003-bash.sh`](chapter-16/003-bash.sh)
+- `chapter-16-pre-004` / `EPUB/chapter-16.xhtml` pre[004]：原書 `examples/chapter-16/004-text.txt` → 日本語版 [`examples-ja/chapter-16/004-text.txt`](chapter-16/004-text.txt)
+- `chapter-16-pre-005` / `EPUB/chapter-16.xhtml` pre[005]：原書 `examples/chapter-16/005-bash.sh` → 日本語版 [`examples-ja/chapter-16/005-bash.sh`](chapter-16/005-bash.sh)
+- `chapter-17-pre-001` / `EPUB/chapter-17.xhtml` pre[001]：原書 `examples/chapter-17/001-bash.sh` → 日本語版 [`examples-ja/chapter-17/001-bash.sh`](chapter-17/001-bash.sh)
+- `chapter-17-pre-002` / `EPUB/chapter-17.xhtml` pre[002]：原書 `examples/chapter-17/002-python.py` → 日本語版 [`examples-ja/chapter-17/002-python.py`](chapter-17/002-python.py)
+- `chapter-18-pre-001` / `EPUB/chapter-18.xhtml` pre[001]：原書 `examples/chapter-18/001-bash.sh` → 日本語版 [`examples-ja/chapter-18/001-bash.sh`](chapter-18/001-bash.sh)
+- `chapter-18-pre-002` / `EPUB/chapter-18.xhtml` pre[002]：原書 `examples/chapter-18/002-csv.csv` → 日本語版 [`examples-ja/chapter-18/002-csv.csv`](chapter-18/002-csv.csv)
+- `chapter-18-pre-003` / `EPUB/chapter-18.xhtml` pre[003]：原書 `examples/chapter-18/003-markdown.md` → 日本語版 [`examples-ja/chapter-18/003-markdown.md`](chapter-18/003-markdown.md)
+- `chapter-18-pre-004` / `EPUB/chapter-18.xhtml` pre[004]：原書 `examples/chapter-18/004-markdown.md` → 日本語版 [`examples-ja/chapter-18/004-markdown.md`](chapter-18/004-markdown.md)
+- `chapter-18-pre-005` / `EPUB/chapter-18.xhtml` pre[005]：原書 `examples/chapter-18/005-text.txt` → 日本語版 [`examples-ja/chapter-18/005-text.txt`](chapter-18/005-text.txt)
+- `chapter-18-pre-006` / `EPUB/chapter-18.xhtml` pre[006]：原書 `examples/chapter-18/006-csv.csv` → 日本語版 [`examples-ja/chapter-18/006-csv.csv`](chapter-18/006-csv.csv)
+- `chapter-18-pre-007` / `EPUB/chapter-18.xhtml` pre[007]：原書 `examples/chapter-18/007-bash.sh` → 日本語版 [`examples-ja/chapter-18/007-bash.sh`](chapter-18/007-bash.sh)
+- `chapter-18-pre-008` / `EPUB/chapter-18.xhtml` pre[008]：原書 `examples/chapter-18/008-text.txt` → 日本語版 [`examples-ja/chapter-18/008-text.txt`](chapter-18/008-text.txt)
+- `chapter-18-pre-009` / `EPUB/chapter-18.xhtml` pre[009]：原書 `examples/chapter-18/009-bash.sh` → 日本語版 [`examples-ja/chapter-18/009-bash.sh`](chapter-18/009-bash.sh)
+- `back-04-pre-001` / `EPUB/back-04.xhtml` pre[001]：原書 `examples/back-04/001-python.py` → 日本語版 [`examples-ja/back-04/001-python.py`](back-04/001-python.py)
+- `back-04-pre-002` / `EPUB/back-04.xhtml` pre[002]：原書 `examples/back-04/002-python.py` → 日本語版 [`examples-ja/back-04/002-python.py`](back-04/002-python.py)
+- `back-05-pre-001` / `EPUB/back-05.xhtml` pre[001]：原書 `examples/back-05/001-html.html` → 日本語版 [`examples-ja/back-05/001-html.html`](back-05/001-html.html)
+- `back-06-pre-001` / `EPUB/back-06.xhtml` pre[001]：原書 `examples/back-06/001-python.py` → 日本語版 [`examples-ja/back-06/001-python.py`](back-06/001-python.py)
+- `back-07-pre-001` / `EPUB/back-07.xhtml` pre[001]：原書 `examples/back-07/001-bash.sh` → 日本語版 [`examples-ja/back-07/001-bash.sh`](back-07/001-bash.sh)
+- `back-07-pre-002` / `EPUB/back-07.xhtml` pre[002]：原書 `examples/back-07/002-bash.sh` → 日本語版 [`examples-ja/back-07/002-bash.sh`](back-07/002-bash.sh)
+- `back-08-pre-001` / `EPUB/back-08.xhtml` pre[001]：原書 `examples/back-08/001-text.txt` → 日本語版 [`examples-ja/back-08/001-text.txt`](back-08/001-text.txt)
+- `back-08-pre-002` / `EPUB/back-08.xhtml` pre[002]：原書 `examples/back-08/002-text.txt` → 日本語版 [`examples-ja/back-08/002-text.txt`](back-08/002-text.txt)
+- `back-08-pre-003` / `EPUB/back-08.xhtml` pre[003]：原書 `examples/back-08/003-text.txt` → 日本語版 [`examples-ja/back-08/003-text.txt`](back-08/003-text.txt)
+- `back-08-pre-004` / `EPUB/back-08.xhtml` pre[004]：原書 `examples/back-08/004-text.txt` → 日本語版 [`examples-ja/back-08/004-text.txt`](back-08/004-text.txt)
+- `back-08-pre-005` / `EPUB/back-08.xhtml` pre[005]：原書 `examples/back-08/005-text.txt` → 日本語版 [`examples-ja/back-08/005-text.txt`](back-08/005-text.txt)
+- `back-08-pre-006` / `EPUB/back-08.xhtml` pre[006]：原書 `examples/back-08/006-bash.sh` → 日本語版 [`examples-ja/back-08/006-bash.sh`](back-08/006-bash.sh)
+- `back-08-pre-007` / `EPUB/back-08.xhtml` pre[007]：原書 `examples/back-08/007-text.txt` → 日本語版 [`examples-ja/back-08/007-text.txt`](back-08/007-text.txt)
+- `back-08-pre-008` / `EPUB/back-08.xhtml` pre[008]：原書 `examples/back-08/008-text.txt` → 日本語版 [`examples-ja/back-08/008-text.txt`](back-08/008-text.txt)
+- `back-08-pre-009` / `EPUB/back-08.xhtml` pre[009]：原書 `examples/back-08/009-text.txt` → 日本語版 [`examples-ja/back-08/009-text.txt`](back-08/009-text.txt)
+- `back-08-pre-010` / `EPUB/back-08.xhtml` pre[010]：原書 `examples/back-08/010-text.txt` → 日本語版 [`examples-ja/back-08/010-text.txt`](back-08/010-text.txt)
+- `back-08-pre-011` / `EPUB/back-08.xhtml` pre[011]：原書 `examples/back-08/011-text.txt` → 日本語版 [`examples-ja/back-08/011-text.txt`](back-08/011-text.txt)
+- `back-08-pre-012` / `EPUB/back-08.xhtml` pre[012]：原書 `examples/back-08/012-text.txt` → 日本語版 [`examples-ja/back-08/012-text.txt`](back-08/012-text.txt)
+
+## 除外例
+
+- `back-02-pre-001` — `EPUB/back-02.xhtml` / pre[001]：直接進入舊 workbook 專案目錄；配套 ZIP 未取得，且 README 明示沒有額外開源授權。
+- `back-02-pre-002` — `EPUB/back-02.xhtml` / pre[002]：執行舊 workbook 專案內 scripts/prepare.py；配套 ZIP 未取得，且 README 明示沒有額外開源授權。
+- `back-02-pre-003` — `EPUB/back-02.xhtml` / pre[003]：切換至舊 workbook 專案與其練習目錄；配套 ZIP 未取得，且 README 明示沒有額外開源授權。
+
+書籍全体やworkbookの配布ではありません。操作前に `RIGHTS.txt` とmanifestを確認してください。
