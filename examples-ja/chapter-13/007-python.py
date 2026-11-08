@@ -20,4 +20,4 @@ for kind, quantity in [
         pass
     else:
         raise AssertionError((kind, quantity))
-print("ACCEPTED: fee contract")
+print("料金契約の検証に合格しました")

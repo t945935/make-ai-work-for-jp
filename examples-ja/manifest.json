@@ -118,7 +118,7 @@
       "chapter": 15,
       "source_file": "EPUB/chapter-15.xhtml",
       "source_title": "第 15 章｜多代理協作：分工、合併與獨立驗收",
-      "display_title_ja": "複数エージェント協業：分担・統合・独立検収",
+      "display_title_ja": "複数エージェントの協働：分担・統合・独立検証",
       "included_examples": 6
     },
     {
@@ -1215,7 +1215,7 @@
       "source_text_sha256": "8ce6d0fbe92057a72c391358481a19db921e2d33c8ceb8294b65bc0a0ca1f84f",
       "status": "included",
       "package_path": "examples-ja/chapter-13/002-python.py",
-      "package_text_sha256": "ecab7266db5113b1b451fe21cab5d4b655a7e95dc72a712577e6c70073fa4864",
+      "package_text_sha256": "6eb2eba4a491fd3129deda5fdefc007814ef164e19e4767fe5bdc8e066c78ee8",
       "source_package_path": "examples/chapter-13/002-python.py",
       "source_package_text_sha256": "8ce6d0fbe92057a72c391358481a19db921e2d33c8ceb8294b65bc0a0ca1f84f",
       "language": "ja"
@@ -1260,7 +1260,7 @@
       "source_text_sha256": "191b2ac2127e6c226b49ecd03829153eada9816a78a93df21c1d1fb33f4de2e8",
       "status": "included",
       "package_path": "examples-ja/chapter-13/005-python.py",
-      "package_text_sha256": "dd8e763cdf77ff30d9baf448a6009a9013834756d3c65d70428d7765759ac19f",
+      "package_text_sha256": "9618fc6b1dd41a9dd762f4d26292681da75c12666316ff754622c5a090da1ef3",
       "source_package_path": "examples/chapter-13/005-python.py",
       "source_package_text_sha256": "191b2ac2127e6c226b49ecd03829153eada9816a78a93df21c1d1fb33f4de2e8",
       "language": "ja"
@@ -1290,7 +1290,7 @@
       "source_text_sha256": "00bbba9bab99621eac7940f5f686a6d7d8e56e678eb93d03933d761697039580",
       "status": "included",
       "package_path": "examples-ja/chapter-13/007-python.py",
-      "package_text_sha256": "0fbd7abdd726168cd6b00d2a0ebd5932a2a0085256cc74542d2046f5f87b585a",
+      "package_text_sha256": "350cd9b3d5c26385b2e1d98678a0670ac0bba00ec7f2dd24d677cde423265123",
       "source_package_path": "examples/chapter-13/007-python.py",
       "source_package_text_sha256": "00bbba9bab99621eac7940f5f686a6d7d8e56e678eb93d03933d761697039580",
       "language": "ja"
@@ -1425,7 +1425,7 @@
       "source_text_sha256": "08f846f31bc51775ad713d37931fc159e8e7bb0898ca4703ff7895881bbdeb7c",
       "status": "included",
       "package_path": "examples-ja/chapter-15/005-python.py",
-      "package_text_sha256": "6633e1f5afb3e110c524c2a764822e6764e4e18b1bea1774f131f5d517d0d4e5",
+      "package_text_sha256": "fb455c5aa461a61c72d7217d023ec7915e1644b854a4bf986fa97b25b3a6b319",
       "source_package_path": "examples/chapter-15/005-python.py",
       "source_package_text_sha256": "08f846f31bc51775ad713d37931fc159e8e7bb0898ca4703ff7895881bbdeb7c",
       "language": "ja"
@@ -1695,7 +1695,7 @@
       "source_text_sha256": "8ac403484460b08bd599797f6ed22412b384c6304445ae61dc8c8492a8e105b2",
       "status": "included",
       "package_path": "examples-ja/back-04/001-python.py",
-      "package_text_sha256": "81f2f7e50bb66886500ecd154b166de7bb4b996eee5092ffc12548f501482f5a",
+      "package_text_sha256": "b84029d6ebb2fe657c07f80475e7746bbec71856bc06047346e71eb860a2e6c4",
       "source_package_path": "examples/back-04/001-python.py",
       "source_package_text_sha256": "8ac403484460b08bd599797f6ed22412b384c6304445ae61dc8c8492a8e105b2",
       "language": "ja"
@@ -1710,7 +1710,7 @@
       "source_text_sha256": "a12064078b2da214003e1aa2f6e1966d2b38c4c5bb29699010eff290fb88eebb",
       "status": "included",
       "package_path": "examples-ja/back-04/002-python.py",
-      "package_text_sha256": "66c2e2183309e5b586d2cd380200b36df27709cf02efcd2512103fb12f7f1103",
+      "package_text_sha256": "e70c467a923b8adc274082034e22ac4fd443a493c0b2f057b974a0afcbf25520",
       "source_package_path": "examples/back-04/002-python.py",
       "source_package_text_sha256": "a12064078b2da214003e1aa2f6e1966d2b38c4c5bb29699010eff290fb88eebb",
       "language": "ja"
@@ -1740,7 +1740,7 @@
       "source_text_sha256": "e2aca82c8f358ab8ad02dd01201411eab4b8eb2fd6b18ecee8ca30c45f90b8e4",
       "status": "included",
       "package_path": "examples-ja/back-06/001-python.py",
-      "package_text_sha256": "508be6ffb942cce2effb91d844ed6084aac0bf4db37a67a855dc30058d20e75a",
+      "package_text_sha256": "f25f44efd756ebeebfafbaaac0e10974a3ec6128fed0bd02b5d78ebc07440699",
       "source_package_path": "examples/back-06/001-python.py",
       "source_package_text_sha256": "e2aca82c8f358ab8ad02dd01201411eab4b8eb2fd6b18ecee8ca30c45f90b8e4",
       "language": "ja"

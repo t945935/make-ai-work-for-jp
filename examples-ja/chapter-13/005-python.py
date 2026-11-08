@@ -1,9 +1,9 @@
 def quote(kind, quantity):
     prices = {"regular": 300, "student": 200}
     if kind not in prices:
-        raise ValueError("unknown ticket kind")
+        raise ValueError("チケット種別が不明です")
     if type(quantity) is not int or quantity < 1:
-        raise ValueError("quantity must be a positive integer")
+        raise ValueError("数量は1以上の整数で指定してください")
     total = prices[kind] * quantity
     if quantity >= 3:
         total = total * 9 // 10

@@ -15,7 +15,7 @@ assert source_rows == [
     dict(id="G02", task="確認印量", owner="小文", due="2026-10-09", status="doing"),
     dict(id="G03", task="整理報名表", owner="", due="2026-10-10", status="todo"),
     dict(id="G04", task="檢查下載連結", owner="小安", due="", status="todo"),
-], "source task fixture changed"
+], "タスクのソースデータが変更されています"
 notes = (root / "input/notes.md").read_text(encoding="utf-8")
 expected_notes = """# 慢光工作室會議摘記（虛構）
 [N01] G02 的印量尚待確認，維持進行中。
@@ -23,7 +23,7 @@ expected_notes = """# 慢光工作室會議摘記（虛構）
 [N03] G04 有人建議十月十一日完成，但主持人尚未同意。
 [N04] 本週只產生草稿，不寄出，也不公開上網。
 """
-assert notes.strip() == expected_notes.strip(), "source notes changed"
+assert notes.strip() == expected_notes.strip(), "ソースのnotesが変更されています"
 fields, rows = read_csv(root / "output/actions.csv")
 assert fields == ["id", "task", "owner", "due", "status", "sources"]
 expected = [
@@ -34,11 +34,11 @@ expected = [
     dict(id="G04", task="檢查下載連結", owner="小安", due="待確認",
          status="todo", sources="tasks.csv:G04;notes.md:N03"),
 ]
-assert rows == expected, "action rows differ from approved contract"
+assert rows == expected, "アクション行が承認済みの契約と一致しません"
 for filename in ["report.md", "README.md"]:
     assert (root / "output" / filename).is_file(), filename
     assert (root / "output" / filename).read_text(encoding="utf-8").strip(), filename
 report = (root / "output/report.md").read_text(encoding="utf-8")
 for heading in ["## 本週待辦", "## 待確認", "## 來源"]:
     assert heading in report, heading
-print("ACCEPTED: structured deliverables; human review still required")
+print("受け入れ確認済み: 成果物の構造。引き続き人手による確認が必要です")

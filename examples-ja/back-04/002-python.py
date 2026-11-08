@@ -93,7 +93,7 @@ def run_case(label, mutate=None, r9=False):
         expected_success = mutate is None
         if (result.returncode == 0) != expected_success:
             raise RuntimeError(label + "\n" + result.stdout + result.stderr)
-        print(f"OK {label}: exit={result.returncode}")
+        print(f"確認済み {label}: 終了コード={result.returncode}")
 
 
 run_case("正しい8行")

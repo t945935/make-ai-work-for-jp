@@ -11,7 +11,7 @@ expected = [
 ]
 actual = [(r["id"], r["title"], r["capacity"], r["registered"],
            r["owner"], r["status"]) for r in rows]
-assert actual == expected, "source differs from approved fixture"
+assert actual == expected, "承認済みの固定データと一致しません"
 assert len({r["id"] for r in rows}) == len(rows)
 assert all(r["status"] in {"confirmed", "draft"} for r in rows)
 over = {r["id"]: int(r["registered"]) - int(r["capacity"])
